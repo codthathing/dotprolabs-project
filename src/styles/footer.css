@@ -1,0 +1,126 @@
+/* This is the styling for the footer section for all screen sizes */
+#page-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--051422);
+}
+
+#footer-contact-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer-contact-text {
+  font-family: var(--Raleway);
+  color: #FFFFFF;
+}
+
+#footer-contact-icon-div {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+/* This is the styling for the footer section for mobile and small screen devices */
+@media all and (max-width: 767px) {
+  #page-footer {
+    padding: 1rem;
+  }
+
+  #footer-logo-image {
+    width: 4rem;
+  }
+
+  #footer-contact-div {
+    gap: 0.75rem 0;
+  }
+
+  #footer-contact-text {
+    font-size: var(--12px);
+  }
+
+  #footer-contact-icon-div {
+    gap: 0 0.75rem;
+  }
+
+  .footer-contact-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+
+
+
+
+
+
+/* This is the styling for the footer section for tab and large screens devices */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  #page-footer {
+    padding: 1.5rem 5rem;
+  }
+
+  #footer-logo-image {
+    width: 7.5rem;
+  }
+
+  #footer-contact-div {
+    gap: 1rem 0;
+  }
+
+  #footer-contact-text {
+    font-size: var(--24px);
+  }
+
+  #footer-contact-icon-div {
+    gap: 0 2.5rem;
+  }
+
+  .footer-contact-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* This is the styling for the footer section for desktop and larger screens devices */
+@media all and (min-width: 1024px) {
+  #page-footer {
+    padding: 1.5rem 7.5rem;
+  }
+
+  #footer-logo-image {
+    width: 10rem;
+  }
+
+  #footer-contact-div {
+    gap: 1.5rem 0;
+  }
+
+  #footer-contact-text {
+    font-size: var(--20px);
+  }
+
+  #footer-contact-icon-div {
+    gap: 0 2.5rem;
+  }
+
+  .footer-contact-icon {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+}

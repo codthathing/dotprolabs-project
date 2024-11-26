@@ -1,0 +1,154 @@
+/* This is the styling for the faq section for all screen sizes */
+#faq-section {
+  background-color: rgba(225, 225, 225, 0.02);
+  border-radius: 0.25rem;
+}
+
+#faq-topic {
+  text-align: center;
+  font-family: var(--NeueMachina);
+  color: var(--E4B40D);
+}
+
+.faq-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid rgba(217, 217, 217, 0.1);
+}
+
+.faq-div:first-child {
+  border-top: 0.5px solid rgba(217, 217, 217, 0.1);
+}
+
+.faq-topic {
+  color: #FFFFFF;
+  font-family: var(--Raleway);
+}
+
+.faq-text {
+  color: var(--BAB8B8);
+  font-family: var(--Raleway);
+}
+
+.faq-icon {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/* This is the styling for the faq section of large and larger screen devices */
+@media all and (min-width: 768px) {
+  #faq-section {
+    padding: 2rem 0;
+  }
+
+  #faq-topic {
+    margin-bottom: 2rem;
+  }
+
+  .faq-text {
+    font-size: var(--16px);
+    margin-top: 1rem;
+  }
+
+  .faq-icon {
+    height: 2.75rem;
+    width: 2.75rem;
+  }
+}
+
+
+
+
+
+
+
+
+/* This is the styling for the faq section for mobile and small screen devices */
+@media all and (max-width: 767px) {
+  #faq-section {
+    margin: 3.5rem auto;
+    padding: 1rem 0;
+    width: 85%;
+  }
+
+  #faq-topic {
+    font-size: var(--16px);
+    margin-bottom: 1rem;
+  }
+
+  .faq-div {
+    padding: 0.75rem 1rem 0.75rem 1.25rem;
+  }
+
+  .faq-topic {
+    font-size: var(--12px);
+  }
+
+  .faq-text {
+    font-size: var(--8px);
+    margin-top: 0.75rem;
+  }
+
+  .faq-icon {
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+}
+
+
+
+
+
+
+
+/* This is the styling for the faq section for tab and large screens devices */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  #faq-section {
+    margin: 5rem auto;
+    width: 80%;
+  }
+
+  #faq-topic {
+    font-size: var(--32px);
+  }
+
+  .faq-div {
+    padding: 1.5rem 2rem 1.5rem 2.75rem;
+  }
+
+  .faq-topic {
+    font-size: var(--24px);
+  }
+}
+
+
+
+
+
+
+
+/* This is the styling for the faq section for desktop and larger screens devices */
+@media all and (min-width: 1024px) {
+  #faq-section {
+    margin: 8.5rem auto;
+    width: 77.5%;
+  }
+
+  #faq-topic {
+    font-size: var(--24px);
+  }
+
+  .faq-div {
+    padding: 1.5rem 2.25rem 1.5rem 3.5rem;
+  }
+
+  .faq-topic {
+    font-size: var(--20px);
+  }
+}

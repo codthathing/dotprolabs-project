@@ -1,0 +1,104 @@
+/* This is the styling for the landing section for all screen sizes */
+#landing-section {
+  position: relative;
+  z-index: 100;
+}
+
+#landing-topic {
+  color: #FFFFFF;
+  font-family: var(--NeueMachina);
+}
+
+#landing-text {
+  color: var(--9E9E9E);
+  font-family: var(--NeueMachina);
+}
+
+#landing-buttons-div {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+/* This is the styling for the landing section of large and larger screen devices */
+@media all and (min-width: 768px) {
+  #landing-text {
+    font-size: var(--16px);
+    margin: 1.25rem 0;
+  }
+
+  #landing-buttons-div {
+    gap: 0 1.5rem;
+  }
+  
+  .landing-button {
+    font-size: var(--16px);
+  }
+}
+
+
+
+
+
+
+/* This is the styling for the landing section for mobile and small screen devices */
+@media all and (max-width: 767px) {
+  #landing-section {
+    padding: 3.5rem 1.5rem 7.5rem 1.5rem;
+  }  
+
+  #landing-topic {
+    font-size: var(--20);
+    white-space: pre-line;
+  }
+
+  #landing-text {
+    font-size: var(--8px);
+    margin: 0.75rem 0;
+  }
+
+  #landing-buttons-div {
+    gap: 0 0.75rem;
+  }
+  
+  .landing-button {
+    font-size: var(--8px);
+  }
+}
+
+
+
+
+
+
+/* This is the styling for the landing section for tab and large screens devices */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  #landing-section {
+    padding: 7rem 2.75rem 10rem 2.75rem;
+  }  
+
+  #landing-topic {
+    font-size: var(--32px);
+  }
+}
+
+
+
+
+
+
+/* This is the styling for the landing section for desktop and larger screens devices */
+@media all and (min-width: 1024px) {
+  #landing-section {
+    padding: 13.5rem 3.5rem 10rem 3.5rem;
+  }  
+
+  #landing-topic {
+    font-size: var(--24px);
+  }
+}

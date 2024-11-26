@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+@import url("./styles/header.css");
+@import url("./styles/landing.css");
+@import url("./styles/about.css");
+@import url("./styles/feature.css");
+@import url("./styles/faq.css");
+@import url("./styles/footer.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('./fonts/neue-machina-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --Raleway: "Raleway", sans-serif;
+  --NeueMachina: 'Neue Machina', sans-serif;
+  --Roboto: "Roboto", sans-serif;
+  --F9D423: #F9D423;
+  --111111: #111111;
+  --9E9E9E: #9E9E9E;
+  --B2FFAC: #B2FFAC;
+  --D9D9D9: #D9D9D9;
+  --F0F0F0: #F0F0F0;
+  --FF5050: #FF5050;
+  --E4B40D: #E4B40D;
+  --ECF1F0: #ECF1F0;
+  --B6B6B6: #B6B6B6;
+  --BAB8B8: #BAB8B8;
+  --051422: #051422;
+  --8px: 0.5rem;
+  --12px: 0.75rem;
+  --16px: 1rem;
+  --20px: 1.25rem;
+  --24px: 1.5rem;
+  --32px: 2rem;
+}
+
+#main-app-page {
+  background-image: url("./assets/images/background-image.png");
+  background-size: cover;
+  position: relative;
+}
+
+#circles-image {
+  width: 100%;
+}
+
+@media all and (max-width: 767px) {
+  #circles-image {
+    height: 20rem;
+  }
+
+  #sphere-image {
+    right: 2rem;
+    width: 7.5rem;
+    top: 7rem;
+  }
+
+  #star-image-one {
+    width: 2rem;
+    top: 4.5rem;
+    left: 4rem;
+  }
+
+  #star-image-two {
+    width: 1.5rem;
+    right: 7.5rem;
+    top: 5rem;
+  }
+  
+  #star-image-three {
+    width: 2rem;
+    right: 5rem;
+    top: 17.5rem;
+  }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  #circles-image {
+    height: 35rem;
+  }
+
+  #sphere-image {
+    right: 4rem;
+    width: 15rem;
+    top: 12.5rem;
+  }
+
+  #star-image-one {
+    width: 4rem;
+    top: 7.5rem;
+    left: 6rem;
+  }
+
+  #star-image-two {
+    width: 3rem;
+    right: 12.5rem;
+    top: 8.5rem;
+  }
+  
+  #star-image-three {
+    width: 4rem;
+    right: 6.5rem;
+    top: 28.5rem;
+  }
+}
+
+
+@media all and (min-width: 1024px) {
+  #circles-image {
+    height: 45rem;
+  }
+
+  #sphere-image {
+    right: 7.5rem;
+    width: 17.5rem;
+    top: 15rem;
+  }
+
+  #star-image-one {
+    width: 4rem;
+    top: 12.5rem;
+    left: 10rem;
+  }
+
+  #star-image-two {
+    width: 3rem;
+    right: 15rem;
+    top: 9.5rem;
+  }
+  
+  #star-image-three {
+    width: 4rem;
+    right: 8.5rem;
+    top: 35rem;
+  }
+}

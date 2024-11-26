@@ -1,0 +1,156 @@
+/* This is the styling for the features section for all screen sizes */
+#feature-topic {
+  color: #FFFFFF;
+  font-family: var(--NeueMachina);
+  text-align: center;
+}
+
+#feature-main {
+  display: grid;
+}
+
+.feature-div {
+  background-color: rgba(225, 225, 225, 0.02);
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.feature-topic {
+  font-family: var(--Raleway);
+  color: var(--ECF1F0);
+}
+
+.feature-text {
+  color: var(--B6B6B6);
+  font-family: var(--Roboto);
+}
+
+
+
+
+
+
+
+/* This is the styling for the features section of large and larger screen devices */
+@media all and  (min-width: 768px) {
+  #feature-topic {
+    margin-bottom: 1.5rem;
+  }
+
+  .feature-div {
+    padding: 2.75rem 2.25rem;
+  }
+
+  .feature-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .feature-topic {
+    margin: 1.75rem 0 1rem 0;
+  }
+
+  .feature-text {
+    font-size: var(--16px);
+  }
+}
+
+
+
+
+
+
+
+
+/* This is the styling for the features section for mobile and small screen devices */
+@media all and (max-width: 767px) {
+  #feature-section {
+    margin-top: 2rem;
+    padding: 0 1.5rem;
+  } 
+
+  #feature-topic {
+    font-size: var(--16px);
+    margin-bottom: 0.75rem;
+  }
+
+  #feature-main {
+    gap: 1rem 0;
+  }
+
+  .feature-div {
+    padding: 1.75rem;
+  }
+
+  .feature-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .feature-topic {
+    font-size: var(--12px);
+    margin: 1.25rem 0 0.5rem 0;
+  }
+
+  .feature-text {
+    font-size: var(--8px);
+  }
+}
+
+
+
+
+
+
+
+/* This is the styling for the features section for tab and large screens devices */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  #feature-section {
+    margin-top: 3.5rem;
+    padding: 0 2.75rem;
+  } 
+
+  #feature-topic {
+    font-size: var(--32px);
+  }
+
+  #feature-main {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .feature-topic {
+    font-size: var(--24px);
+  }
+}
+
+
+
+
+
+
+
+/* This is the styling for the features section for desktop and larger screens devices */
+@media all and (min-width: 1024px) {
+  #feature-section {
+    margin-top: 2.5rem;
+    padding: 0 3.5rem;
+  } 
+  
+  #feature-topic {
+    font-size: var(--24px);
+  }
+
+  #feature-main {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0 2.5rem;
+  }
+
+  .feature-div {
+    text-align: start;
+  }
+
+  .feature-topic {
+    font-size: var(--20px);
+  }
+}

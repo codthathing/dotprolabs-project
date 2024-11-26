@@ -1,0 +1,159 @@
+/* This is the styling for the about section for all screen sizes */
+#about-topic {
+  color: #FFFFFF;
+  font-family: var(--NeueMachina);
+}
+
+#about-table {
+  width: 100%;
+  background-color: rgba(225, 225, 225, 0.02);
+  border-radius: 0.25rem;
+} 
+
+.about-table-head {
+  color: var(--E4B40D);
+  font-family: var(--Raleway);
+}
+
+.about-table-data:nth-child(2), .about-table-data:nth-child(3) {
+  text-align: center;
+}
+
+.about-table-data {
+  color: var(--F0F0F0);
+  font-family: var(--NeueMachina);
+}
+
+.about-table-head:nth-child(1) , .about-table-data:nth-child(1) {
+  border-left: none;
+} 
+
+.about-table-head, .about-table-data {
+  border-bottom: 0.5px solid rgba(217, 217, 217, 0.1);
+  border-left: 0.5px solid rgba(217, 217, 217, 0.1);
+}
+
+
+
+
+
+
+
+/* This is the styling for the about section of large and larger screen devices */
+@media all and  (min-width: 768px) {
+  #about-topic {
+    margin-bottom: 1.5rem;
+  }
+
+  #about-table {
+    padding: 1rem;
+  }
+
+  #about-moonex-logo {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  
+  #table-uniswap-logo {
+    width: 8.5rem;
+  }
+
+  .about-table-data {
+    font-size: var(--16px);
+  }
+
+  .about-table-head, .about-table-data {
+    padding: 1rem;
+  }
+
+  .about-table-icon {
+    width: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+/* This is the styling for the about section for mobile and small screen devices */
+@media all and (max-width: 767px) {
+  #about-section {
+    padding: 0 1.5rem;
+  } 
+
+  #about-topic {
+    font-size: var(--16px);
+    margin-bottom: 0.75rem;
+  }
+
+  #about-table {
+    padding: 0.75rem;
+  }
+
+  .about-table-head {
+    font-size: var(--12px);
+  }
+
+  #about-moonex-logo {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  
+  #table-uniswap-logo {
+    width: 4.25rem;
+  }
+
+  .about-table-data {
+    font-size: var(--8px);
+  }
+
+  .about-table-head, .about-table-data {
+    padding: 0.75rem;
+  }
+
+  .about-table-icon {
+    width: 0.5rem;
+  }
+}
+
+
+
+
+
+/* This is the styling for the about section for tab and large screens devices */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  #about-section {
+    padding: 0 2.75rem;
+  } 
+
+  #about-topic {
+    font-size: var(--32px);
+  }
+
+  .about-table-head {
+    font-size: var(--24px);
+  }
+}
+
+
+
+
+
+
+/* This is the styling for the about section for desktop and larger screens devices */
+@media all and (min-width: 1024px) {
+  #about-section {
+    padding: 0 3.5rem;
+  }  
+  
+  #about-topic {
+    font-size: var(--24px);
+  }
+
+  .about-table-head {
+    font-size: var(--20px);
+  }
+}
