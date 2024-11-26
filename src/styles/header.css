@@ -144,6 +144,11 @@
     gap: 0 0.5rem;
   }
 
+  .header-aside-mobile {
+    flex-direction: column;
+    gap: 0.10rem 0;
+  }
+
   .aside-text {
     font-size: var(--8px);
   }

@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <header id="page-header">
       <PageLogoText iconId={"header-logo"} />
-      <PageAside asideArray={asideTexts} />
+      <PageAside asideArray={asideTexts} className={"header-aside-mobile"} />
       <PageButtons buttonType={"background-button"} buttonClass={"header-button"} buttonText={"connect wallet"} />
     </header>
   );

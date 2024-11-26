@@ -60,9 +60,9 @@
   }
 
   #sphere-image {
-    right: 2rem;
-    width: 7.5rem;
-    top: 7rem;
+    right: 1rem;
+    width: 4.5rem;
+    top: 9.5rem;
   }
 
   #star-image-one {
@@ -74,13 +74,13 @@
   #star-image-two {
     width: 1.5rem;
     right: 7.5rem;
-    top: 5rem;
+    top: 7.5rem;
   }
   
   #star-image-three {
     width: 2rem;
     right: 5rem;
-    top: 17.5rem;
+    top: 15rem;
   }
 }
 

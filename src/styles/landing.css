@@ -60,6 +60,7 @@
   #landing-text {
     font-size: var(--8px);
     margin: 0.75rem 0;
+    white-space: pre-line;
   }
 
   #landing-buttons-div {
